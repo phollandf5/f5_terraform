@@ -20,8 +20,8 @@ variable "SP" {
 variable prefix	{ default = "zludemo" }
 variable uname	{ default = "azureuser" }
 variable upassword	{ default = "Default12345" }
-variable location	{ default = "eastus" }	 
-variable region		{ default = "East US" }
+variable location	{ default = "uksouth" }	 
+variable region		{ default = "UK South" }
 
 # NETWORK
 variable cidr	{ default = "10.90.0.0/16" }
