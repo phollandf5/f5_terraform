@@ -17,7 +17,7 @@ variable "SP" {
 		tenant_id       = "e569f29e-b098-4cea-b6f0-48fa8532d64a"
 	}
 }
-variable prefix	{ default = "zludemo" }
+variable prefix	{ default = "dutchdemo" }
 variable uname	{ default = "azureuser" }
 variable upassword	{ default = "Default12345" }
 variable location	{ default = "uksouth" }	 
