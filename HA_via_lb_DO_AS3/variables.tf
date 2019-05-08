@@ -8,15 +8,15 @@ variable rest_vm02_do_file {default = "vm02_do_data.json" }
 variable rest_vm_as3_file {default = "vm_as3_data.json" }
 
 # Azure Environment
-variable "SP" {
-	type = "map"
-	default = {
-		subscription_id = "xxxxx"
-		client_id       = "xxxxx"
-		client_secret   = "xxxxx"
-		tenant_id       = "xxxxx"
-	}
-}
+#variable "SP" {
+#	type = "map"
+#	default = {
+#		subscription_id = "xxxxx"
+#		client_id       = "xxxxx"
+#		client_secret   = "xxxxx"
+#		tenant_id       = "xxxxx"
+#	}
+#}
 variable prefix	{ default = "zludemo" }
 variable uname	{ default = "azureuser" }
 variable upassword	{ default = "Default12345" }
