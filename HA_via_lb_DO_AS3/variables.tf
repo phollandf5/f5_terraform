@@ -11,10 +11,10 @@ variable rest_vm_as3_file {default = "vm_as3_data.json" }
 variable "SP" {
 	type = "map"
 	default = {
-		subscription_id = "xxxxx"
-		client_id       = "xxxxx"
-		client_secret   = "xxxxx"
-		tenant_id       = "xxxxx"
+		subscription_id = "c8bd4483-a1a2-47c4-acc8-4a49fbf180f3"
+		client_id       = "6a3ff318-e574-42b7-94ef-c81141ef5f5c"
+		client_secret   = "scxd3MP21yN_T[pTyQTUGI0Mb+oBv*jc"
+		tenant_id       = "e569f29e-b098-4cea-b6f0-48fa8532d64a"
 	}
 }
 variable prefix	{ default = "zludemo" }
