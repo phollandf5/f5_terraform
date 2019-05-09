@@ -24,22 +24,22 @@ variable location	{ default = "uksouth" }
 variable region		{ default = "UK South" }
 
 # NETWORK
-variable cidr	{ default = "10.90.0.0/16" }
+variable cidr	{ default = "172.16.90.0/24" }
 variable "subnets" {
 	type = "map"
 	default = {
-		"subnet1" = "10.90.1.0/24"
-		"subnet2" = "10.90.2.0/24"
-		"subnet3" = "10.90.3.0/24"
+		"subnet1" = "172.16.90.0/26"
+		"subnet2" = "172.16.90.64/26"
+		"subnet3" = "172.16.90.128/26"
 	}
 }
-variable f5vm01mgmt	{ default = "10.90.1.4" }
-variable f5vm01ext	{ default = "10.90.2.4" }
-variable f5vm01ext_sec  { default = "10.90.2.11" }
-variable f5vm02mgmt	{ default = "10.90.1.5" }
-variable f5vm02ext	{ default = "10.90.2.5" }
-variable f5vm02ext_sec  { default = "10.90.2.12" }
-variable backend01ext   { default = "10.90.2.101" }
+variable f5vm01mgmt	{ default = "172.16.90.4" }
+variable f5vm01ext	{ default = "172.16.90.70" }
+variable f5vm01ext_sec  { default = "172.16.90.81" }
+variable f5vm02mgmt	{ default = "172.16.90.5" }
+variable f5vm02ext	{ default = "172.16.90.71" }
+variable f5vm02ext_sec  { default = "172.16.90.72" }
+variable backend01ext   { default = "172.16.90.73" }
 
 # BIGIP Image
 variable instance_type	{ default = "Standard_DS4_v2" }
