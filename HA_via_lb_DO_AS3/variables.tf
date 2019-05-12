@@ -12,8 +12,8 @@ variable "SP" {
 	type = "map"
 	default = {
 		subscription_id = "c8bd4483-a1a2-47c4-acc8-4a49fbf180f3"
-		client_id       = "6a3ff318-e574-42b7-94ef-c81141ef5f5c"
-		client_secret   = "scxd3MP21yN_T[pTyQTUGI0Mb+oBv*jc"
+		client_id       = "e96adc75-ff1f-46a2-ae66-f2d311aca2d0"
+		client_secret   = "B?os0m.vj*isKbu2rv=nJFOKiLLss8k2"
 		tenant_id       = "e569f29e-b098-4cea-b6f0-48fa8532d64a"
 	}
 }
