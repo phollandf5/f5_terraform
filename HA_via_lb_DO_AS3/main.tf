@@ -200,6 +200,19 @@ resource "azurerm_network_security_group" "main" {
     destination_address_prefix = "*"
   }
 
+  security_rule {
+    name                       = "allow_APP_HTTPS_8080"
+    description                = "Allow HTTPS 8080 access"
+    priority                   = 150
+    direction                  = "Inbound"
+    access                     = "Allow"
+    protocol                   = "Tcp"
+    source_port_range          = "*"
+    destination_port_range     = "8080"
+    source_address_prefix      = "*"
+    destination_address_prefix = "*"
+  }
+
   tags {
     Name           = "${var.environment}-bigip-sg"
     environment    = "${var.environment}"
