@@ -70,3 +70,5 @@ variable group          { default = "f5group"      }
 variable costcenter     { default = "f5costcenter" }
 variable application    { default = "f5app"        }
 
+variable vip_ip			{ default = "10.10.12.12" }
+variable pool			{ default = "/Common/cambridge-pool" }
